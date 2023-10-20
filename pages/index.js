@@ -1,17 +1,9 @@
-import Hero from "@/components/hero"
-import Link from "next/link"
+import Hero from "@/components/hero";
 
 export default function Home() {
-    return(
+  return (
     <>
-    <Hero
-        title="CUBE"
-        subtitle="アウトプットしていくサイト"
-        imageOn
-    />
-    <Link href="/about">About</Link>
-    <p></p>
-    <Link href="./blog">Blog</Link>
+      <Hero title="CUBE" subtitle="アウトプットしていくサイト" imageOn />
     </>
-    )
+  );
 }
